@@ -1,0 +1,15 @@
+.wrapper{
+    margin: 5px;
+}
+
+.bg-text{
+    background-image: url(./assets/Backgrounds_in_CSS.jpg);
+    width: 45%;
+    height: 150px;
+}
+
+.bg-text p{
+    font-style: normal;
+    font-size: 22px;
+    font-family: fantasy;
+}
