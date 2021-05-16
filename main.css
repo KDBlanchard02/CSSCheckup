@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(255, 244, 95);
+}
+
 .wrapper{
     margin: 5px;
 }
@@ -6,10 +10,36 @@
     background-image: url(./assets/Backgrounds_in_CSS.jpg);
     width: 45%;
     height: 150px;
+    border-style: ridge;
+    border-color: darkblue;
+    border-width: 5px;
 }
 
 .bg-text p{
     font-style: normal;
     font-size: 22px;
     font-family: fantasy;
+}
+
+.bg-text2{
+    background-image: url(./assets/oriental-tiles.png);
+    padding: 10px;
+    margin: 10px;
+    border-style: double;
+    border-width: 5px;
+    border-color: darkturquoise;
+    width: 25%;
+}
+
+.bg-text2 h2{
+    text-align: center;
+    color: white;
+}
+
+#names{
+    color: white;
+    font-style: normal;
+    font-family: cursive;
+    font-size: 16px;
+    text-align: center;
 }
